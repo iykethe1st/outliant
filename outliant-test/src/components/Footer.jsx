@@ -8,11 +8,13 @@ const Footer = () => {
           <h1 className="font-bold text-3xl lg:text-4xl">
             Lorem ipsum dolor sit amet consectetur
           </h1>
-          <span className="text-gray-500">
+          <span className="text-[#636262]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
             expedita dignissimos
           </span>
-          <ButtonPrimary label="Call to Action" />
+          <div>
+            <ButtonPrimary label="Call to Action" />
+          </div>
         </div>
       </div>
       <div className="bg-[#ECECEC] h-[4rem]"></div>

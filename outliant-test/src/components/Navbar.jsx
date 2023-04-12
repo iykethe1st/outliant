@@ -32,7 +32,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="text-gray-600 bg-white flex-wrap w-full flex items-center tracking-tight justify-between py-4 transform transition duration-500 ease-in-out px-4 md:px-[4rem] lg:px-[8rem]">
+    <nav className="text-[#636262] bg-white flex-wrap w-full flex items-center tracking-tight justify-between py-4 transform transition duration-500 ease-in-out px-4 md:px-[4rem] lg:px-[8rem]">
       <a href="/">
         {" "}
         <h1 className=" lg:px-8 font-bold text-xl">Logo</h1>
