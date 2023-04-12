@@ -5,11 +5,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home";
+import Products from "./pages/Products";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/Products",
+    element: <Products />,
   },
 ]);
 
